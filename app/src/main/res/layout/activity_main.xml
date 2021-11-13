@@ -6,6 +6,7 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#BD1414"
     android:orientation="vertical">
 
 
@@ -17,11 +18,8 @@
 
         <org.imaginativeworld.whynotimagecarousel.ImageCarousel
             android:id="@+id/carousel"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="350dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="8dp"
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -36,7 +34,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
-            android:text="@string/titulo"
+            android:text="@string/title"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/carousel"
@@ -89,7 +87,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="@string/ubication"
+            android:text="@string/location"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView10"
             tools:ignore="TextContrastCheck" />
@@ -102,7 +100,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="@string/ubication_drescription"
+            android:text="@string/location_description"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView12"
