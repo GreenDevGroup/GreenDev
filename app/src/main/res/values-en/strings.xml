@@ -4,9 +4,9 @@
     <string name="title">Terracota House</string>
     <string name="about">About:</string>
     <string name="description">Habitable house made entirely of clay. A gem of architecture. Unique in the world. The architect has won several awards for this creation that has been under construction for 13 years and they continue to improve it.</string>
-    <string name="schedule">Visiting schedule:</string>
+    <string name="schedule">Visiting \nschedule:</string>
     <string name="schedule_description">10:00 AM to 05:00 PM</string>
-    <string name="temperature_description">10 °C up to 22 °C</string>
+    <string name="temperature_description">10°C upto 22°C</string>
     <string name="temperature">Temperature:</string>
     <string name="location">Location:</string>
     <string name="location_description">Villa de Leyva - Boyaca</string>

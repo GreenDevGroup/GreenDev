@@ -3,9 +3,9 @@
     <string name="title">Casa Terracota</string>
     <string name="about">Acerca de:</string>
     <string name="description">Casa habitable hecha completamente de barro. Una joya de arquitectura. Unica en el mundo. El arquitecto ha ganado varios premios por esta creacion que lleva 13 años en construccion y la siguen mejorando.</string>
-    <string name="schedule">Abierto desde:</string>
+    <string name="schedule">Horario de \n visita:</string>
     <string name="schedule_description">De 10:00 AM a 05:00 PM</string>
-    <string name="temperature_description">10 °C a 22 °C</string>
+    <string name="temperature_description">10°C a 22°C</string>
     <string name="temperature">Temperatura:</string>
     <string name="location">Ubicación:</string>
     <string name="location_description">Villa de Leyva - Boyaca</string>
