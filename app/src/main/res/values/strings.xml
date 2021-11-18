@@ -9,4 +9,5 @@
     <string name="temperature">Temperatura:</string>
     <string name="location">Ubicación:</string>
     <string name="location_description">Villa de Leyva - Boyaca</string>
+    <string name="description_terracota_cardview">"Casa Terracota es la cerámica más grande del mundo, localizada en Villa de Leyva (Boyacá)."</string>
 </resources>
