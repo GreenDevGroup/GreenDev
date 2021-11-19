@@ -14,15 +14,15 @@ import androidx.recyclerview.widget.RecyclerView
 //hereda del adapter y le paso el viewHolder
 class TouristicCentresAdapter(
     private val centerTuristicList: ArrayList<TouristicCentres>
-    ) : RecyclerView.Adapter<TouristicCentresAdapter.ViewHolder>() {
+    ) : RecyclerView.Adapter<TouristicCentresAdapter.ResortsViewHolder>() {
 
 
     //Digame cual es el view en el que yo voy a colocar los items
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ResortsViewHolder {
         //Este codigo es el mismo siempre, solo hay que pasarle el card_view.
         val view = LayoutInflater.from(parent.context).inflate(R.layout.card_view_touristiccentres_item,
             parent, false)
-        return ViewHolder(view) //Este view es un acceso directo a el layout del card_view_touristiccentres_item
+        return ResortsViewHolder(view) //Este view es un acceso directo a el layout del card_view_touristiccentres_item
     }
 
 
@@ -31,7 +31,7 @@ class TouristicCentresAdapter(
 
     //Recibe un viewHolder y una posicion
     //Yo tengo una lista esa lista la recorremos item por item, esto se hace automaticamente, mediante un obj
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ResortsViewHolder, position: Int) {
         //centerTuristicList es el arraylis de el archivo TouristicCentres
         val centerTuristic = centerTuristicList[position]
         //Se lo mando a una funcion
@@ -48,7 +48,7 @@ class TouristicCentresAdapter(
 
     //AQUI ES DONDE VOY APUNTAR:
     //recibe un vista y herada un Recyclerview que recibe otro paremetro:
-    class ViewHolder(Itemview: View) : RecyclerView.ViewHolder(Itemview){
+    class ResortsViewHolder(Itemview: View) : RecyclerView.ViewHolder(Itemview){
 
         private var TitleTextView: TextView = Itemview.findViewById(R.id.title_incardview_textview)
         private var descriptonTextView: TextView = Itemview.findViewById(R.id.description_incardview_textView)

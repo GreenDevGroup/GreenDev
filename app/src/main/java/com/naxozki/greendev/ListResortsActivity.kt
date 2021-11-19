@@ -3,6 +3,7 @@ package com.naxozki.greendev
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class ListResortsActivity : AppCompatActivity() {
@@ -19,17 +20,63 @@ class ListResortsActivity : AppCompatActivity() {
         //Bindeamos/unimos nuestro recyclerView
         resortsRecyclerView = findViewById(R.id.resorts_recycler_view)
 
+        //Lista de centros turisticos
+        listResorts = createMockResorts() //Mock es una data que yo utilizo de prueba.
+
         //inicializar nuestro adapter
-        touristicCenterAdapter =  TouristicCentresAdapter()
+        touristicCenterAdapter =  TouristicCentresAdapter(listResorts)
 
-        //Configurar para que funcione nuestro recycleView:
+        /*NO FUNCIONO....Configurar para que funcione nuestro recycleView:
 
-        //usted va funcionar de forma vertical
+        //usted va funcionar de forma vertical:
         resortsRecyclerView.addItemDecoration(
-            DividerItemDecoration(this,DividerItemDecoration.VERTICAL))
+        DividerItemDecoration(this,DividerItemDecoration.VERTICAL))*/
 
-        //Seteando el adapter:
-        resortsRecyclerView.adapter = touristicCenterAdapter
+
+        resortsRecyclerView.apply{
+            layoutManager = LinearLayoutManager(context)
+            adapter = touristicCenterAdapter
+            setHasFixedSize(false)
+        }
+
+
+        /*NO FUNCIONO...Seteando el adapter:
+        resortsRecyclerView.adapter = touristicCenterAdapter*/
 
     }
+
+    private fun createMockResorts() : ArrayList<TouristicCentres>{
+        return arrayListOf(
+            TouristicCentres(
+                titleName="Puente Boyaca",
+                description="Es un puenta xd",
+                temperature="20 °C",
+                ubication="Boyaca",
+                schedule="4PM - 8PM"
+            ),
+            TouristicCentres(
+                titleName="Nevado del CUCUI",
+                description="Hace frío",
+                temperature="2 °C",
+                ubication="Boyaca",
+                schedule="10am - 4pm"
+            ),
+            TouristicCentres(
+                titleName="Pantano de vargas",
+                description="Esta sucio",
+                temperature="30 °C",
+                ubication="Boyaca",
+                schedule="12pm - 4pm"
+            ),
+            TouristicCentres(
+                titleName="Laguna de TOTA",
+                description="Es una laguna",
+                temperature="35 °C",
+                ubication="Boyaca",
+                schedule="10am - 4pm"
+            )
+        )
+
+    }
+
 }
