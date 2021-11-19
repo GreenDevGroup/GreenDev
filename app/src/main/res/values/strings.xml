@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">GreenDev</string>
     <string name="title">Casa Terracota</string>
     <string name="about">Acerca de:</string>
@@ -9,4 +9,5 @@
     <string name="temperature">Temperatura:</string>
     <string name="location">Ubicación:</string>
     <string name="location_description">Villa de Leyva - Boyaca</string>
+    <string name="title2" tools:ignore="MissingTranslation">Puente Boyaca</string>
 </resources>
