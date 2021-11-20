@@ -10,4 +10,9 @@
     <string name="temperature">Temperature:</string>
     <string name="location">Location:</string>
     <string name="location_description">Villa de Leyva - Boyaca</string>
+    <string name="titlec">National Natural Park El Cocuy</string>
+    <string name="descriptionc">This park is one of the most important hydrographic reserves from Colombia, its surroundings demonstrate the biodiversity that characterizes our country, from its waterfalls and lagoons, to its vast vegetation such as the páramo and the frailejón.</string>
+    <string name="temperature_descriptionc">-4°C upto 20°C</string>
+    <string name="location_descriptionc">Bordering with Boyacá and Arauca</string>
+    <string name="shedule_descriptionc">06:00 AM to 05:00 PM</string>
 </resources>
