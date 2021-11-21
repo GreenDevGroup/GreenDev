@@ -25,10 +25,10 @@
 	},
 	{
 		"title" : "Nevado del Cocuy",
-		"description" : "Descripción Nevado del Cocuy",
-		"temperature" : "Temperatura nevado del Cocuy",
+		"description" : "Este  parque es   una de las  reservas hidrográficas más importantes de Colombia.",
+		"temperature" : "-4°C a 20°C",
 		"location" : "Guicán - Boyacá",
-		"schedule" : "Horario nevado del Cocuy",
+		"schedule" : "De 06:00 AM a 05:00 PM",
 		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465410/cocuy_snx1la.jpg"
 	},
 	{
