@@ -48,6 +48,13 @@ class ListResortsActivity : AppCompatActivity() {
     private fun createMockResorts() : ArrayList<TouristicCentres>{
         return arrayListOf(
             TouristicCentres(
+                titleName="Casa Terracota",
+                description="Caso de barro",
+                temperature="25 °C",
+                ubication="Boyaca",
+                schedule="10AM - 6PM"
+            ),
+            TouristicCentres(
                 titleName="Puente Boyaca",
                 description="Es un puenta xd",
                 temperature="20 °C",
@@ -55,11 +62,11 @@ class ListResortsActivity : AppCompatActivity() {
                 schedule="4PM - 8PM"
             ),
             TouristicCentres(
-                titleName="Nevado del CUCUI",
-                description="Hace frío",
-                temperature="2 °C",
+                titleName="Nevado del Cocuy",
+                description="Este  parque es de las  reservas hidrográficas más importantes de Colombia, porque alimenta los llanos orientales",
+                temperature="-20°C y 4°C",
                 ubication="Boyaca",
-                schedule="10am - 4pm"
+                schedule="6am - 5pm"
             ),
             TouristicCentres(
                 titleName="Pantano de vargas",

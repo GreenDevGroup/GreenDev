@@ -5,6 +5,6 @@ data class TouristicCentres (
     val description: String,
     val temperature: String,
     val ubication: String,
-    val schedule: String
-
+    val schedule: String,
+    val urlPicture: String
 )
