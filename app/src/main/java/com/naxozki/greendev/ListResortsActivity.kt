@@ -5,11 +5,12 @@ import android.os.Bundle
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.gson.Gson
 
 class ListResortsActivity : AppCompatActivity() {
 
     //Una variable la debo inicializar si no lo hago, debo decirle a kotlin que no la voy a inicializar.
-    private lateinit var listResorts: ArrayList<TouristicCentres>
+    private lateinit var listResorts: ArrayList<TouristAttractionsItem>
     private lateinit var touristicCenterAdapter: TouristicCentresAdapter
     private lateinit var resortsRecyclerView: RecyclerView
 
@@ -21,9 +22,10 @@ class ListResortsActivity : AppCompatActivity() {
         resortsRecyclerView = findViewById(R.id.resorts_recycler_view)
 
         //Lista de centros turisticos
-        listResorts = createMockResorts() //Mock es una data que yo utilizo de prueba.
+        //listResorts = createMockResorts() //Mock es una data que yo utilizo de prueba.
 
         //inicializar nuestro adapter
+        listResorts = loadMockJSON()
         touristicCenterAdapter =  TouristicCentresAdapter(listResorts)
 
         /*NO FUNCIONO....Configurar para que funcione nuestro recycleView:
@@ -45,7 +47,15 @@ class ListResortsActivity : AppCompatActivity() {
 
     }
 
-    private fun createMockResorts() : ArrayList<TouristicCentres>{
+    private fun loadMockJSON(): ArrayList<TouristAttractionsItem> {
+        val touristicAttractionString : String = applicationContext.assets.open("touristAttraction.json").bufferedReader().use { it.readText() }
+        val gson = Gson()
+        val data = gson.fromJson(touristicAttractionString,TouristAttractions::class.java)
+        return data
+
+    }
+
+    /*private fun createMockResorts() : ArrayList<TouristicCentres>{
         return arrayListOf(
             TouristicCentres(
                 titleName="Casa Terracota",
@@ -84,6 +94,6 @@ class ListResortsActivity : AppCompatActivity() {
             )
         )
 
-    }
+    }*/
 
 }

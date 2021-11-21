@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 
 
 //viewHolder= gestiona el contenido del aviso, ej: a este titulo pongale esto. etc
@@ -13,12 +14,12 @@ import androidx.recyclerview.widget.RecyclerView
 //Tambien la clase se le debe pasar una lista de los centros turisticos
 //hereda del adapter y le paso el viewHolder
 class TouristicCentresAdapter(
-    private val centerTuristicList: ArrayList<TouristicCentres>
+    private val centerTuristicList: ArrayList<TouristAttractionsItem>
     ) : RecyclerView.Adapter<TouristicCentresAdapter.ResortsViewHolder>() {
 
 
     //Digame cual es el view en el que yo voy a colocar los items
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ResortsViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int):ResortsViewHolder {
         //Este codigo es el mismo siempre, solo hay que pasarle el card_view.
         val view = LayoutInflater.from(parent.context).inflate(R.layout.card_view_touristiccentres_item,
             parent, false)
@@ -55,12 +56,10 @@ class TouristicCentresAdapter(
         private var pictureImageView: ImageView = Itemview.findViewById(R.id.image_incardview_imageView)
 
         //Defino la funcion bind que recibe un parametro.
-        fun bind(touristicCentre:TouristicCentres){ //Defino una variable touristicCentres de tipo TouristicCentres
-            TitleTextView.text = touristicCentre.titleName
+        fun bind(touristicCentre:TouristAttractionsItem){ //Defino una variable touristicCentres de tipo TouristicCentres
+            TitleTextView.text = touristicCentre.title
             descriptonTextView.text = touristicCentre.description
-            //picture pendiente
-
+            Picasso.get().load(touristicCentre.urlPicture).into(pictureImageView)
         }
-
     }
 }

@@ -1,0 +1,42 @@
+[
+	{
+		"title" : "Casa Terracota",
+		"description" : "Casa habitable hecha completamente de barro. Una joya de arquitectura única en el mundo... ",
+		"temperature" : "10°C a 22°C",
+		"location" : "Villa de Leyva - Boyacá",
+		"schedule" : "De 10:00 am a 5:00 pm",
+		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637464527/terracota_1_ine4h7.jpg"
+	},
+	{
+		"title" : "Lago de Tota",
+		"description" : "Descripción Lago de Tota",
+		"temperature" : "Temperatura Lago de Tota",
+		"location" : "Tota - Boyacá",
+		"schedule" : "Horario Lago de Tota",
+		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465858/lagoTota_lpaqy6.jpg"
+	},
+	{
+		"title" : "Puente de Boyacá",
+		"description" : "Descripción Puente de Boyacá",
+		"temperature" : "Temperatura Puente de Boyacá",
+		"location" : "Tunja/Ventaquemada - Boyacá",
+		"schedule" : "Horario Puente de Boyacá",
+		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465515/puente_boyaca_nskxfz.jpg"
+	},
+	{
+		"title" : "Nevado del Cocuy",
+		"description" : "Descripción Nevado del Cocuy",
+		"temperature" : "Temperatura nevado del Cocuy",
+		"location" : "Guicán - Boyacá",
+		"schedule" : "Horario nevado del Cocuy",
+		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465410/cocuy_snx1la.jpg"
+	},
+	{
+		"title" : "Pantano de Vargas",
+		"description" : "Lanceros del Pantano de Vargas o Monumento a los Lanceros.Considerado el monumento más grande de Colombia y...",
+		"temperature" : "6°C a 20°C",
+		"location" : "Paipa - Boyacá",
+		"schedule" : "N/A",
+		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637464386/pantanoVargas1_mxbj6q.jpg"
+	}
+]
