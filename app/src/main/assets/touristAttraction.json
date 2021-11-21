@@ -9,10 +9,10 @@
 	},
 	{
 		"title" : "Lago de Tota",
-		"description" : "Descripción Lago de Tota",
-		"temperature" : "Temperatura Lago de Tota",
-		"location" : "Tota - Boyacá",
-		"schedule" : "Horario Lago de Tota",
+		"description" : "El lago de Tota es un cuerpo de agua natural situado en el departamento de Boyacá, Colombia.",
+		"temperature" : "La temperatura promedio es de 12°C. El clima en esta zona del país es frío",
+		"location" : " Se encuentra ubicado a 34 km al sur de Sogamoso, aproximadamente 200 km al noroeste de Bogotá, la capital del país.  ",
+		"schedule" : " De 6:00 am  a  6:00 pm",
 		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465858/lagoTota_lpaqy6.jpg"
 	},
 	{
