@@ -5,14 +5,14 @@
 		"temperature" : "10°C a 22°C",
 		"location" : "Villa de Leyva - Boyacá",
 		"schedule" : "De 10:00 am a 5:00 pm",
-		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637464527/terracota_1_ine4h7.jpg"
+		"urlPicture" : "https://res.cloudinary.com/naxozki/image/upload/v1637453474/terracota_cardview_yugz7j.jpg"
 	},
 	{
 		"title" : "Lago de Tota",
-		"description" : "Descripción Lago de Tota",
-		"temperature" : "Temperatura Lago de Tota",
+		"description" : "La laguna, de gran hermosura y mucho turismo, tiene 18 kilómetros (le largo, 8 de ancho y 60 metros de profundidad máxima",
+		"temperature" : "14°C a 17°C",
 		"location" : "Tota - Boyacá",
-		"schedule" : "Horario Lago de Tota",
+		"schedule" : "7:00 a.m. a 12:00 a.m",
 		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465858/lagoTota_lpaqy6.jpg"
 	},
 	{
@@ -25,15 +25,15 @@
 	},
 	{
 		"title" : "Nevado del Cocuy",
-		"description" : "Descripción Nevado del Cocuy",
+		"description" : "Actualmente es el único nevado sobre la cordillera oriental. Su punto más alto, el pico Ritacuba Blanco o Ritak'uwa se ubica a 5380 msnm",
 		"temperature" : "Temperatura nevado del Cocuy",
 		"location" : "Guicán - Boyacá",
 		"schedule" : "Horario nevado del Cocuy",
-		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465410/cocuy_snx1la.jpg"
+		"urlPicture" : "https://res.cloudinary.com/naxozki/image/upload/v1637454037/elcocuy1_jmrwoo.jpg"
 	},
 	{
 		"title" : "Pantano de Vargas",
-		"description" : "Lanceros del Pantano de Vargas o Monumento a los Lanceros.Considerado el monumento más grande de Colombia y...",
+		"description" : "Lanceros del Pantano de Vargas o Monumento a los Lanceros.Considerado el monumento más grande de Colombia.",
 		"temperature" : "6°C a 20°C",
 		"location" : "Paipa - Boyacá",
 		"schedule" : "N/A",
