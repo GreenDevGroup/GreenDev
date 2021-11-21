@@ -1,0 +1,47 @@
+[
+  {
+  "titleName":"Casa Terracota",
+  "description":"Casa Terracota es la cerámica más grande del mundo, localizada en Villa de Leyva (Boyacá).",
+  "temperature":"25 °C",
+  "ubication":"Boyaca",
+  "schedule":"10AM - 6PM",
+  "urlPicture":"https://res.cloudinary.com/naxozki/image/upload/v1637453474/terracota_cardview_yugz7j.jpg"
+  },
+
+  {
+  "titleName":"Puente Boyaca",
+  "description":"Es un puenta xd",
+  "temperature":"20 °C",
+  "ubication":"Boyaca",
+  "schedule":"4PM - 8PM",
+  "urlPicture":"https://res.cloudinary.com/naxozki/image/upload/v1637454304/5a04f217e8f08_1_cfoj8q.jpg"
+  },
+
+  {
+  "titleName":"Nevado del Cocuy",
+  "description":"Este parque es de las reservas hidrográficas más importantes de Colombia, porque alimenta los llanos orientales",
+  "temperature":"-20°C y 4°C",
+  "ubication":"Boyaca",
+  "schedule":"6am - 5pm",
+  "urlPicture": "https://res.cloudinary.com/naxozki/image/upload/v1637454037/elcocuy1_jmrwoo.jpg"
+  },
+
+  {
+  "titleName":"Pantano de vargas",
+  "description":"Esta sucio",
+  "temperature":"30 °C",
+  "ubication":"Boyaca",
+  "schedule":"12pm - 4pm",
+  "urlPicture":"https://res.cloudinary.com/naxozki/image/upload/v1637454234/pnatano_vargas_wt1vuy.jpg"
+  },
+
+  {
+  "titleName":"Laguna de TOTA",
+  "description":"Es una laguna",
+  "temperature":"35 °C",
+  "ubication":"Boyaca",
+  "schedule":"10am - 4pm",
+  "urlPicture":"https://res.cloudinary.com/naxozki/image/upload/v1637454427/planes-turisticos-laguna-de-tota_1_edaygu.jpg"
+
+  }
+]
