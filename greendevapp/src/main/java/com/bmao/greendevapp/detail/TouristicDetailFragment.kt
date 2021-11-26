@@ -9,7 +9,7 @@ import androidx.navigation.fragment.navArgs
 import com.bmao.greendevapp.R
 import com.bmao.greendevapp.databinding.FragmentTouristicDetailBinding
 import com.squareup.picasso.Picasso
-
+//gggg
 class TouristicDetailFragment : Fragment() {
 
     private lateinit var DetailBinding : FragmentTouristicDetailBinding
