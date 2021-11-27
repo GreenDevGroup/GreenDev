@@ -25,4 +25,8 @@
             app:argType="com.bmao.greendevapp.model.TouristicAttractionItem" />
 
     </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.bmao.greendevapp.preference.SettingsFragment"
+        android:label="SettingsFragment" />
 </navigation>
