@@ -20,7 +20,7 @@ data class TouristicAttractionItem(
     @SerializedName("urlPicture")
     val urlPicture: String,
     @SerializedName("rating")
-    val rating: Double,
+    val rating: Float,
     @SerializedName("urlPictureCoruselUno")
     val urlPictureCoruselUno: String,
     @SerializedName("urlPictureCoruselDos")

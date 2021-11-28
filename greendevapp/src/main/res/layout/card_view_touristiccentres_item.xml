@@ -26,15 +26,18 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/image_incardview_imageView"
-                android:layout_width="180dp"
+                android:layout_width="200dp"
                 android:layout_height="150dp"
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
                 android:contentDescription="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/roundImageView"
                 app:srcCompat="@drawable/terracota_cardview" />
 
             <TextView
@@ -42,11 +45,9 @@
                 style="@style/sub_Titulos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
+                android:layout_marginStart="6dp"
                 android:layout_marginTop="4dp"
-                android:layout_marginEnd="4dp"
                 android:text="@string/title"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/image_incardview_imageView"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -55,7 +56,7 @@
                 style="?android:attr/ratingBarStyleSmall"
                 android:layout_width="82dp"
                 android:layout_height="18dp"
-                android:layout_marginStart="4dp"
+                android:layout_marginStart="6dp"
                 android:layout_marginTop="4dp"
                 android:isIndicator="false"
                 android:numStars="5"
@@ -73,7 +74,7 @@
                 style="@style/text_normal"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
+                android:layout_marginStart="6dp"
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="4dp"
                 android:justificationMode="inter_word"
@@ -82,6 +83,16 @@
                 app:layout_constraintStart_toEndOf="@+id/image_incardview_imageView"
                 app:layout_constraintTop_toBottomOf="@+id/stars_incardview_ratingBar"
                 tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:id="@+id/rating_textView"
+                style="@style/text_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="TextView"
+                app:layout_constraintStart_toEndOf="@+id/stars_incardview_ratingBar"
+                app:layout_constraintTop_toBottomOf="@+id/title_incardview_textview" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
