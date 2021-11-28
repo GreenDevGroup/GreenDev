@@ -6,16 +6,33 @@
 		"temperature" : "10°C a 22°C",
 		"location" : "Villa de Leyva - Boyacá",
 		"schedule" : "De 10:00 am a 5:00 pm",
-		"urlPicture" : "https://res.cloudinary.com/naxozki/image/upload/v1637453474/terracota_cardview_yugz7j.jpg"
+		"urlPicture" : "https://res.cloudinary.com/naxozki/image/upload/v1637453474/terracota_cardview_yugz7j.jpg",
+		"rating": "4,5",
+		"urlPictureCoruselUno" : "https://res.cloudinary.com/naxozki/image/upload/v1637791538/Terracota/terracota_5_ncejyt.jpg",
+		"urlPictureCoruselDos" : "https://res.cloudinary.com/naxozki/image/upload/v1637791538/Terracota/terracota_2_wdfcbm.jpg",
+		"urlPictureCoruselTres" : "https://res.cloudinary.com/naxozki/image/upload/v1637791538/Terracota/terracota_4_sb2s6s.jpg",
+		"urlPictureCoruselCuatro" : "https://res.cloudinary.com/naxozki/image/upload/v1637791538/Terracota/terracota_1_vwlkjy.jpg",
+		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1637791537/Terracota/terracota_3_etjhuf.jpg",
+		"lalitude": "5.63",
+		"Logitud": "-73.53"
+
 	},
 	{
 		"title" : "Lago de Tota",
 		"shortDescription" : "La laguna, de gran hermosura y mucho turismo, tiene 18 kilómetros (le largo, 8 de ancho y 60 metros de profundidad máxima",
-		"description": "Descripción larga sitio turistico",
+		"description": "El lago de Tota es un cuerpo de agua natural situado en el departamento de Boyacá, Colombia, en jurisdicción de los municipios de Cuítiva, Tota y Aquitania.",
 		"temperature" : "14°C a 17°C",
 		"location" : "Tota - Boyacá",
 		"schedule" : "7:00 a.m. a 12:00 a.m",
-		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465858/lagoTota_lpaqy6.jpg"
+		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465858/lagoTota_lpaqy6.jpg",
+		"rating": "4,8",
+		"urlPictureCoruselUno" : "https://res.cloudinary.com/naxozki/image/upload/v1638066773/Tota/tota5_wmecdr.jpg",
+		"urlPictureCoruselDos" : "https://res.cloudinary.com/naxozki/image/upload/v1638066771/Tota/tota3_ekurpd.jpg",
+		"urlPictureCoruselTres" : "https://res.cloudinary.com/naxozki/image/upload/v1638066772/Tota/tota4_nmadwm.jpg",
+		"urlPictureCoruselCuatro" : "https://res.cloudinary.com/naxozki/image/upload/v1638066684/Tota/tota1_wkselb.jpg",
+		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1638066769/Tota/tota2_en3fn9.jpg",
+		"lalitude": "5.54",
+		"Logitud": "-72.92"
 	},
 	{
 		"title" : "Puente de Boyacá",
@@ -24,16 +41,33 @@
 		"temperature" : "14°C a 18°C",
 		"location" : "Cerca a la ciudad de Tunja-Boyacá",
 		"schedule" : "Horario Libre / Sin restriccion",
-		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465515/puente_boyaca_nskxfz.jpg"
+		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465515/puente_boyaca_nskxfz.jpg",
+		"rating": "4,7",
+		"urlPictureCoruselUno" : "https://res.cloudinary.com/naxozki/image/upload/v1638067613/puente/puente3_jllwdh.jpg",
+		"urlPictureCoruselDos" : "https://res.cloudinary.com/naxozki/image/upload/v1638067641/puente/puente2_iocade.jpg",
+		"urlPictureCoruselTres" : "https://res.cloudinary.com/naxozki/image/upload/v1638067611/puente/puente1_yxl6hz.jpg",
+		"urlPictureCoruselCuatro" : "https://res.cloudinary.com/naxozki/image/upload/v1638067666/puente/puente4_hsec1w.jpg",
+		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1637454304/5a04f217e8f08_1_cfoj8q.jpg",
+		"lalitude": "5.45",
+		"Logitud": "-73.53"
+
 	},
 	{
 		"title" : "Nevado del Cocuy",
 		"shortDescription" : "Actualmente es el único nevado sobre la cordillera oriental. Su punto más alto, el pico Ritacuba Blanco o Ritak'uwa se ubica a 5380 msnm",
-		"description": "Descripción larga sitio turistico",
+		"description": "El Parque Nacional Natural Güicán, Cocuy y Chita es uno de los 59 parques nacionales naturales de Colombia. Está ubicado al centro-oriente del país, ",
 		"temperature" : "Temperatura nevado del Cocuy",
 		"location" : "Guicán - Boyacá",
 		"schedule" : "Horario nevado del Cocuy",
-		"urlPicture" : "https://res.cloudinary.com/naxozki/image/upload/v1637454037/elcocuy1_jmrwoo.jpg"
+		"urlPicture" : "https://res.cloudinary.com/naxozki/image/upload/v1637454037/elcocuy1_jmrwoo.jpg",
+		"rating": "4,8",
+		"urlPictureCoruselUno" : "https://res.cloudinary.com/naxozki/image/upload/v1638066345/Cocuy/cocuy2_jlxmal.jpg",
+		"urlPictureCoruselDos" : "https://res.cloudinary.com/naxozki/image/upload/v1638066322/Cocuy/cocuy_oe1pjq.jpg",
+		"urlPictureCoruselTres" : "https://res.cloudinary.com/naxozki/image/upload/v1637791723/Cocuy/cocuy2_rritey.png",
+		"urlPictureCoruselCuatro" : "https://res.cloudinary.com/naxozki/image/upload/v1637791419/Cocuy/cocuy1_sd0lyh.png",
+		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1637791171/Cocuy/cocuy_bqvnsl.png",
+		"lalitude": "6.40",
+		"Logitud": "-72.44"
 	},
 	{
 		"title" : "Pantano de Vargas",
@@ -42,6 +76,14 @@
 		"temperature" : "6°C a 20°C",
 		"location" : "Paipa - Boyacá",
 		"schedule" : "N/A",
-		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637464386/pantanoVargas1_mxbj6q.jpg"
+		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637464386/pantanoVargas1_mxbj6q.jpg",
+		"rating": "4,7",
+		"urlPictureCoruselUno" : "https://res.cloudinary.com/naxozki/image/upload/v1638068062/pantano/pantano1_vkwkkw.jpg",
+		"urlPictureCoruselDos" : "https://res.cloudinary.com/naxozki/image/upload/v1638068066/pantano/pantano4_wmmrlu.jpg",
+		"urlPictureCoruselTres" : "https://res.cloudinary.com/naxozki/image/upload/v1638068064/pantano/Pantano3_q7kwv1.jpg",
+		"urlPictureCoruselCuatro" : "https://res.cloudinary.com/naxozki/image/upload/v1638068067/pantano/pantano5_qscimc.jpg",
+		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1638068065/pantano/pantano2_eyiumf.jpg",
+		"lalitude": "5.73",
+		"Logitud": "-73.07"
 	}
 ]

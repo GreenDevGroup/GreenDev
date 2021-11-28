@@ -13,8 +13,9 @@ import com.squareup.picasso.Picasso
 
 
 class TouristicCentresAdapter(
-    private val centerTuristicList: ArrayList<TouristicAttractionItem>, private val onItemClicked:(TouristicAttractionItem)-> Unit) : RecyclerView.Adapter<TouristicCentresAdapter.ResortsViewHolder>() {
 
+    private val centerTuristicList: ArrayList<TouristicAttractionItem>,
+    private val onItemClicked:(TouristicAttractionItem)-> Unit) : RecyclerView.Adapter<TouristicCentresAdapter.ResortsViewHolder>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ResortsViewHolder {

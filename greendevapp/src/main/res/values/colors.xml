@@ -5,9 +5,9 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="primary">#4CAF50</color>
+    <color name="primary_dark">#388E3C</color>
+    <color name="accent">#8BC34A</color>
     <item name="black" type="color">#000000</item>
     <item name="navy" type="color">	#000080</item>
     <item name="darkblue" type="color">#00008b</item>
@@ -23,7 +23,7 @@
     <item name="darkviolet" type="color">#006400</item>
     <item name="darkslategray" type="color">#2f4f4f</item>
     <item name="darkslateblue" type="color">#483d8b</item>
-    <item name="green" type="color">#008000</item>
+    <item name="green" type="color">#4CAF50</item>
     <item name="red" type="color">#ff0000</item>
     <item name="firebrick" type="color">#b22222</item>
     <item name="brown" type="color">#a52a2a</item>

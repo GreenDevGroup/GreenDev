@@ -28,15 +28,17 @@ class MainActivity : AppCompatActivity() {
             temperatureTextView.text = turisticAttraction.temperature
             locationTextView.text = turisticAttraction.location
             scheduleTextView.text = turisticAttraction.schedule
+
+            //Carousel
+            val carousel: ImageCarousel = findViewById(R.id.carousel)
+            list.add(CarouselItem(imageUrl = turisticAttraction.urlPictureCoruselUno, caption = "Terracota"))
+            list.add(CarouselItem(imageUrl = turisticAttraction.urlPictureCoruselDos, caption = "Terracota"))
+            list.add(CarouselItem(imageUrl = turisticAttraction.urlPictureCoruselTres, caption = "Terracota"))
+            list.add(CarouselItem(imageUrl = turisticAttraction.urlPictureCoruselCuatro, caption = "Terracota"))
+            list.add(CarouselItem(imageUrl = turisticAttraction.urlPictureCoruselCinco, caption = "Terracota"))
+            carousel.addData(list)
         }
 
-        //Carousel
-        val carousel: ImageCarousel = findViewById(R.id.carousel)
-        list.add(CarouselItem(imageDrawable = R.drawable.terracota_1, caption = "Terracota"))
-        list.add(CarouselItem(imageDrawable = R.drawable.terracota_2, caption = "Terracota"))
-        list.add(CarouselItem(imageDrawable = R.drawable.terracota_3, caption = "Terracota"))
-        list.add(CarouselItem(imageDrawable = R.drawable.terracota_4, caption = "Terracota"))
-        list.add(CarouselItem(imageDrawable = R.drawable.terracota_5, caption = "Terracota"))
-        carousel.addData(list)
+
     }
 }

@@ -8,12 +8,15 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
 import com.bmao.greendevapp.R
 import com.bmao.greendevapp.databinding.FragmentTouristicDetailBinding
-import com.squareup.picasso.Picasso
+import org.imaginativeworld.whynotimagecarousel.model.CarouselItem
+import org.imaginativeworld.whynotimagecarousel.ImageCarousel
+
 
 class TouristicDetailFragment : Fragment() {
 
     private lateinit var DetailBinding : FragmentTouristicDetailBinding
     private val args : TouristicDetailFragmentArgs by navArgs()
+    private val list = mutableListOf<CarouselItem>()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -25,6 +28,7 @@ class TouristicDetailFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+
         super.onViewCreated(view, savedInstanceState)
         val turisticAttraction = args.touristicAttraction
         with(DetailBinding){
@@ -33,7 +37,15 @@ class TouristicDetailFragment : Fragment() {
             temperatureTextView.text = turisticAttraction.temperature
             locationTextView.text = turisticAttraction.location
             scheduleTextView.text = turisticAttraction.schedule
-            //Picasso.get().load(turisticAttraction.urlPicture).into(carousel)
+
+            //Carousel
+            val carousel: ImageCarousel = view.findViewById(R.id.carousel)
+            list.add(CarouselItem(imageUrl = turisticAttraction.urlPictureCoruselUno, caption = turisticAttraction.title))
+            list.add(CarouselItem(imageUrl = turisticAttraction.urlPictureCoruselDos, caption = turisticAttraction.title))
+            list.add(CarouselItem(imageUrl = turisticAttraction.urlPictureCoruselTres, caption = turisticAttraction.title))
+            list.add(CarouselItem(imageUrl = turisticAttraction.urlPictureCoruselCuatro, caption = turisticAttraction.title))
+            list.add(CarouselItem(imageUrl = turisticAttraction.urlPictureCoruselCinco, caption = turisticAttraction.title))
+            carousel.addData(list)
 
         }
     }

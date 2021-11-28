@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.bmao.greendevapp.R
 import com.bmao.greendevapp.databinding.FragmentTouristicListBinding
 import com.bmao.greendevapp.model.TouristicAttraction
 import com.bmao.greendevapp.model.TouristicAttractionItem

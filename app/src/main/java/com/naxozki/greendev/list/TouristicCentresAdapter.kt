@@ -25,7 +25,6 @@ class TouristicCentresAdapter(
     }
 
 
-
     override fun onBindViewHolder(holder: ResortsViewHolder, position: Int) {
         val centerTuristic = centerTuristicList[position]
         holder.itemView.setOnClickListener{onItemClicked(centerTuristicList[position])}

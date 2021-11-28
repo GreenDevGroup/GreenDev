@@ -18,5 +18,22 @@ data class TouristicAttractionItem(
     @SerializedName("title")
     val title: String,
     @SerializedName("urlPicture")
-    val urlPicture: String
+    val urlPicture: String,
+    @SerializedName("rating")
+    val rating: Double,
+    @SerializedName("urlPictureCoruselUno")
+    val urlPictureCoruselUno: String,
+    @SerializedName("urlPictureCoruselDos")
+    val urlPictureCoruselDos: String,
+    @SerializedName("urlPictureCoruselTres")
+    val urlPictureCoruselTres: String,
+    @SerializedName("urlPictureCoruselCuatro")
+    val urlPictureCoruselCuatro: String,
+    @SerializedName("urlPictureCoruselCinco")
+    val urlPictureCoruselCinco: String,
+    @SerializedName("lalitude")
+    val lalitude: Double,
+    @SerializedName("Logitud")
+    val Logitud: Double
+
 ) : Serializable
