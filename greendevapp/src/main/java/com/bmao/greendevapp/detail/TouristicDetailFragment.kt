@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
 import com.bmao.greendevapp.R
 import com.bmao.greendevapp.databinding.FragmentTouristicDetailBinding
+import com.bmao.greendevapp.main.MainActivity
 import org.imaginativeworld.whynotimagecarousel.model.CarouselItem
 import org.imaginativeworld.whynotimagecarousel.ImageCarousel
 
@@ -17,6 +18,11 @@ class TouristicDetailFragment : Fragment() {
     private lateinit var DetailBinding : FragmentTouristicDetailBinding
     private val args : TouristicDetailFragmentArgs by navArgs()
     private val list = mutableListOf<CarouselItem>()
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        (activity as MainActivity?)?.showIcon()
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

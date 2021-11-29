@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bmao.greendevapp.databinding.FragmentTouristicListBinding
+import com.bmao.greendevapp.main.MainActivity
 import com.bmao.greendevapp.model.TouristicAttraction
 import com.bmao.greendevapp.model.TouristicAttractionItem
 import com.google.gson.Gson
@@ -29,6 +30,7 @@ class TouristicListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as MainActivity?)?.hideIcon()
         listTouristicAttractions = loadMockJSON()
         touristicsAdapter = TouristicCentresAdapter(listTouristicAttractions, onItemClicked = {onTouristicCentreClicked(it)} )
         listBinding.resortsRecyclerView.apply {
