@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">GreenDev</string>
+    <string name="title">Casa Terracota</string>
+    <string name="about">Acerca de:</string>
+    <string name="description">Casa habitable hecha completamente de barro. Una joya de arquitectura. Unica en el mundo. El arquitecto ha ganado varios premios por esta creacion que lleva 13 años en construccion y la siguen mejorando.</string>
+    <string name="schedule">Horario de \n visita:</string>
+    <string name="schedule_description">De 10:00 AM a 05:00 PM</string>
+    <string name="temperature_description">10°C a 22°C</string>
+    <string name="temperature">Temperatura:</string>
+    <string name="location">Ubicación:</string>
+    <string name="location_description">Villa de Leyva - Boyaca</string>
+    <string name="description_terracota_cardview">"Casa Terracota es la cerámica más grande del mundo, localizada en Villa de Leyva (Boyacá)."</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="settings">AJUSTES</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="preferences">Ajustes</string>
+</resources>

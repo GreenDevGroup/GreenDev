@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/touristicListFragment">
+
+    <fragment
+        android:id="@+id/touristicListFragment"
+        android:name="com.bmao.greendevapp.list.TouristicListFragment"
+        android:label="fragment_touristic_list"
+        tools:layout="@layout/fragment_touristic_list" >
+        <action
+            android:id="@+id/action_touristicListFragment_to_touristicDetailFragment"
+            app:destination="@id/touristicDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/touristicDetailFragment"
+        android:name="com.bmao.greendevapp.detail.TouristicDetailFragment"
+        android:label="TouristicDetailFragment"
+        tools:layout="@layout/fragment_touristic_detail">
+
+        <argument
+            android:name="touristicAttraction"
+            app:argType="com.bmao.greendevapp.model.TouristicAttractionItem" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.bmao.greendevapp.preference.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>
