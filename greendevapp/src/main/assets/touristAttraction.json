@@ -13,8 +13,8 @@
 		"urlPictureCoruselTres" : "https://res.cloudinary.com/naxozki/image/upload/v1637791538/Terracota/terracota_4_sb2s6s.jpg",
 		"urlPictureCoruselCuatro" : "https://res.cloudinary.com/naxozki/image/upload/v1637791538/Terracota/terracota_1_vwlkjy.jpg",
 		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1637791537/Terracota/terracota_3_etjhuf.jpg",
-		"lalitude": "5.63",
-		"Logitud": "-73.53"
+		"latitude": "5.63",
+		"longitude": "-73.53"
 
 	},
 	{
@@ -31,8 +31,8 @@
 		"urlPictureCoruselTres" : "https://res.cloudinary.com/naxozki/image/upload/v1638066772/Tota/tota4_nmadwm.jpg",
 		"urlPictureCoruselCuatro" : "https://res.cloudinary.com/naxozki/image/upload/v1638066684/Tota/tota1_wkselb.jpg",
 		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1638066769/Tota/tota2_en3fn9.jpg",
-		"lalitude": "5.54",
-		"Logitud": "-72.92"
+		"latitude": "5.54",
+		"longitude": "-72.92"
 	},
 	{
 		"title" : "Puente de Boyacá",
@@ -48,8 +48,8 @@
 		"urlPictureCoruselTres" : "https://res.cloudinary.com/naxozki/image/upload/v1638067611/puente/puente1_yxl6hz.jpg",
 		"urlPictureCoruselCuatro" : "https://res.cloudinary.com/naxozki/image/upload/v1638067666/puente/puente4_hsec1w.jpg",
 		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1637454304/5a04f217e8f08_1_cfoj8q.jpg",
-		"lalitude": "5.45",
-		"Logitud": "-73.53"
+		"latitude": "5.45",
+		"longitude": "-73.53"
 
 	},
 	{
@@ -66,8 +66,8 @@
 		"urlPictureCoruselTres" : "https://res.cloudinary.com/naxozki/image/upload/v1637791723/Cocuy/cocuy2_rritey.png",
 		"urlPictureCoruselCuatro" : "https://res.cloudinary.com/naxozki/image/upload/v1637791419/Cocuy/cocuy1_sd0lyh.png",
 		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1637791171/Cocuy/cocuy_bqvnsl.png",
-		"lalitude": "6.40",
-		"Logitud": "-72.44"
+		"latitude": "6.40",
+		"longitude": "-72.44"
 	},
 	{
 		"title" : "Pantano de Vargas",
@@ -83,7 +83,7 @@
 		"urlPictureCoruselTres" : "https://res.cloudinary.com/naxozki/image/upload/v1638068064/pantano/Pantano3_q7kwv1.jpg",
 		"urlPictureCoruselCuatro" : "https://res.cloudinary.com/naxozki/image/upload/v1638068067/pantano/pantano5_qscimc.jpg",
 		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1638068065/pantano/pantano2_eyiumf.jpg",
-		"lalitude": "5.73",
-		"Logitud": "-73.07"
+		"latitude": "5.73",
+		"longitude": "-73.07"
 	}
 ]

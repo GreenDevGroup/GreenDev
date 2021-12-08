@@ -23,10 +23,18 @@
         <argument
             android:name="touristicAttraction"
             app:argType="com.bmao.greendevapp.model.TouristicAttractionItem" />
+        <action
+            android:id="@+id/action_touristicDetailFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
 
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.bmao.greendevapp.preference.SettingsFragment"
         android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.bmao.greendevapp.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 </navigation>

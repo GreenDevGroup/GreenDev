@@ -31,9 +31,9 @@ data class TouristicAttractionItem(
     val urlPictureCoruselCuatro: String,
     @SerializedName("urlPictureCoruselCinco")
     val urlPictureCoruselCinco: String,
-    @SerializedName("lalitude")
-    val lalitude: Double,
-    @SerializedName("Logitud")
-    val Logitud: Double
+    @SerializedName("latitude")
+    val latitude: Double,
+    @SerializedName("Longitude")
+    val longitude: Double
 
 ) : Serializable
