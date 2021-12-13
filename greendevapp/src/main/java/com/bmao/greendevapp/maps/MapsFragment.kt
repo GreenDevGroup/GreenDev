@@ -8,7 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
 import com.bmao.greendevapp.R
-import com.bmao.greendevapp.detail.TouristicDetailFragmentArgs
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -17,8 +16,10 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 
+
 class MapsFragment : Fragment() {
 
+    private val args : MapsFragmentArgs by navArgs()
     private val callback = OnMapReadyCallback { googleMap ->
         /**
          * Manipulates the map once available.
@@ -29,10 +30,11 @@ class MapsFragment : Fragment() {
          * install it inside the SupportMapFragment. This method will only be triggered once the
          * user has installed Google Play services and returned to the app.
          */
+        val sitio = args.mapsLocation
 
-        val sydney = LatLng(-33.0, 151.0)
-        googleMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+        val locationMap = LatLng(sitio.latitude, sitio.longitude)
+        googleMap.addMarker(MarkerOptions().position(locationMap).title(sitio.title))
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(locationMap,13F))
     }
 
     override fun onCreateView(

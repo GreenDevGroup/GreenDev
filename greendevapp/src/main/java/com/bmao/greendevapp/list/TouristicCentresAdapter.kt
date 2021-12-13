@@ -51,7 +51,7 @@ class TouristicCentresAdapter(
         fun bind(touristicCentre: TouristicAttractionItem){
             TitleTextView.text = touristicCentre.title
             descriptonTextView.text = touristicCentre.shortDescription
-            ratingView.rating=touristicCentre.rating
+            ratingView.rating= touristicCentre.rating.toFloat()
             ratingText.text= touristicCentre.rating.toString()
             Picasso.get().load(touristicCentre.urlPicture).into(pictureImageView)
         }
