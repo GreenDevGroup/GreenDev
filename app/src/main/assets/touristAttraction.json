@@ -1,42 +1,88 @@
 [
 	{
 		"title" : "Casa Terracota",
-		"description" : "Casa habitable hecha completamente de barro. Una joya de arquitectura única en el mundo... ",
+		"shortDescription" : "Casa habitable hecha completamente de barro. Una joya de arquitectura única en el mundo... ",
+		"description": "Descripción larga sitio turistico",
 		"temperature" : "10°C a 22°C",
 		"location" : "Villa de Leyva - Boyacá",
 		"schedule" : "De 10:00 am a 5:00 pm",
-		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637464527/terracota_1_ine4h7.jpg"
+		"urlPicture" : "https://res.cloudinary.com/naxozki/image/upload/v1637453474/terracota_cardview_yugz7j.jpg",
+		"rating": "4,5",
+		"urlPictureCoruselUno" : "https://res.cloudinary.com/naxozki/image/upload/v1637791538/Terracota/terracota_5_ncejyt.jpg",
+		"urlPictureCoruselDos" : "https://res.cloudinary.com/naxozki/image/upload/v1637791538/Terracota/terracota_2_wdfcbm.jpg",
+		"urlPictureCoruselTres" : "https://res.cloudinary.com/naxozki/image/upload/v1637791538/Terracota/terracota_4_sb2s6s.jpg",
+		"urlPictureCoruselCuatro" : "https://res.cloudinary.com/naxozki/image/upload/v1637791538/Terracota/terracota_1_vwlkjy.jpg",
+		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1637791537/Terracota/terracota_3_etjhuf.jpg",
+		"lalitude": "5.63",
+		"Logitud": "-73.53"
+
 	},
 	{
 		"title" : "Lago de Tota",
-		"description" : "El lago de Tota es un cuerpo de agua natural situado en el departamento de Boyacá, Colombia.",
-		"temperature" : "La temperatura promedio es de 12°C. El clima en esta zona del país es frío",
-		"location" : " Se encuentra ubicado a 34 km al sur de Sogamoso, aproximadamente 200 km al noroeste de Bogotá, la capital del país.  ",
-		"schedule" : " De 6:00 am  a  6:00 pm",
-		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465858/lagoTota_lpaqy6.jpg"
+		"shortDescription" : "La laguna, de gran hermosura y mucho turismo, tiene 18 kilómetros (le largo, 8 de ancho y 60 metros de profundidad máxima",
+		"description": "Descripción larga sitio turistico",
+		"temperature" : "14°C a 17°C",
+		"location" : "Tota - Boyacá",
+		"schedule" : "7:00 a.m. a 12:00 a.m",
+		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465858/lagoTota_lpaqy6.jpg",
+		"rating": "4,5",
+		"urlPictureCoruselUno" : "w",
+		"urlPictureCoruselDos" : "w",
+		"urlPictureCoruselTres" : "w",
+		"urlPictureCoruselCuatro" : "w",
+		"urlPictureCoruselCinco" : "w",
+		"lalitude": "5.63",
+		"Logitud": "-73.53"
 	},
 	{
 		"title" : "Puente de Boyacá",
-		"description" : "Declarado Patrimonio Cultural pues fue donde se dio la ultima batalla que dio la independencia a Colombia",
+		"shortDescription" : "Declarado Patrimonio Cultural, porque fue donde se dio la ultima batalla que dio la independencia a Colombia",
+		"description": "Descripción larga sitio turistico",
 		"temperature" : "14°C a 18°C",
 		"location" : "Cerca a la ciudad de Tunja-Boyacá",
 		"schedule" : "Horario Libre / Sin restriccion",
-		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465515/puente_boyaca_nskxfz.jpg"
+		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465515/puente_boyaca_nskxfz.jpg",
+		"rating": "4,5",
+		"urlPictureCoruselUno" : "w",
+		"urlPictureCoruselDos" : "w",
+		"urlPictureCoruselTres" : "w",
+		"urlPictureCoruselCuatro" : "w",
+		"urlPictureCoruselCinco" : "w",
+		"lalitude": "5.63",
+		"Logitud": "-73.53"
 	},
 	{
 		"title" : "Nevado del Cocuy",
-		"description" : "Descripción Nevado del Cocuy",
+		"shortDescription" : "Actualmente es el único nevado sobre la cordillera oriental. Su punto más alto, el pico Ritacuba Blanco o Ritak'uwa se ubica a 5380 msnm",
+		"description": "El Parque Nacional Natural Güicán, Cocuy y Chita es uno de los 59 parques nacionales naturales de Colombia. Está ubicado al centro-oriente del país, este  parque es   una de las  reservas hidrográficas más importantes de Colombia, sus alrededores  demuestran la biodiversidad que caracteriza nuestro país, desde sus cascadas y lagunas, hasta su vasta vegetación como lo es el páramo y el frailejón. ",
 		"temperature" : "Temperatura nevado del Cocuy",
 		"location" : "Guicán - Boyacá",
 		"schedule" : "Horario nevado del Cocuy",
-		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637465410/cocuy_snx1la.jpg"
+		"urlPicture" : "https://res.cloudinary.com/naxozki/image/upload/v1637454037/elcocuy1_jmrwoo.jpg",
+		"rating": "4,5",
+		"urlPictureCoruselUno" : "w",
+		"urlPictureCoruselDos" : "w",
+		"urlPictureCoruselTres" : "w",
+		"urlPictureCoruselCuatro" : "w",
+		"urlPictureCoruselCinco" : "w",
+		"lalitude": "5.63",
+		"Logitud": "-73.53"
 	},
 	{
 		"title" : "Pantano de Vargas",
-		"description" : "Lanceros del Pantano de Vargas o Monumento a los Lanceros.Considerado el monumento más grande de Colombia y...",
+		"shortDescription" : "Lanceros del Pantano de Vargas o Monumento a los Lanceros.Considerado el monumento más grande de Colombia.",
+		"description": "Lanceros del Pantano de Vargas o Monumentos a los Lanceros. Considerado\nel monumento más grande de Colombia y en él se destaca la carga de los 14 lanceros al mando\ndel Coronel Juan José Rondón. Fue el lugar de la penúltima batalla por la independencia de Colombia.\nObra realizada en 1969 por el maestro Rodrigo Arenas Betancourt al cumplirse 150 años de la independencia.",
 		"temperature" : "6°C a 20°C",
 		"location" : "Paipa - Boyacá",
 		"schedule" : "N/A",
-		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637464386/pantanoVargas1_mxbj6q.jpg"
+		"urlPicture" : "https://res.cloudinary.com/drnlobiie/image/upload/v1637464386/pantanoVargas1_mxbj6q.jpg",
+		"rating": "4,5",
+		"urlPictureCoruselUno" : "w",
+		"urlPictureCoruselDos" : "w",
+		"urlPictureCoruselTres" : "w",
+		"urlPictureCoruselCuatro" : "w",
+		"urlPictureCoruselCinco" : "w",
+		"lalitude": "5.63",
+		"Logitud": "-73.53"
 	}
 ]

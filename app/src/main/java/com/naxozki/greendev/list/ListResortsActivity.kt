@@ -1,16 +1,20 @@
-package com.naxozki.greendev
+package com.naxozki.greendev.list
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
+import com.naxozki.greendev.R
+import com.naxozki.greendev.main.MainActivity
+import com.naxozki.greendev.model.TouristicAttraction
+import com.naxozki.greendev.model.TouristicAttractionItem
 
 class ListResortsActivity : AppCompatActivity() {
 
     //Una variable la debo inicializar si no lo hago, debo decirle a kotlin que no la voy a inicializar.
-    private lateinit var listResorts: ArrayList<TouristAttractionsItem>
+    private lateinit var listResorts: ArrayList<TouristicAttractionItem>
     private lateinit var touristicCenterAdapter: TouristicCentresAdapter
     private lateinit var resortsRecyclerView: RecyclerView
 
@@ -18,39 +22,28 @@ class ListResortsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list_resorts)
 
-        //Bindeamos/unimos nuestro recyclerView
         resortsRecyclerView = findViewById(R.id.resorts_recycler_view)
 
-        //Lista de centros turisticos
-        //listResorts = createMockResorts() //Mock es una data que yo utilizo de prueba.
-
-        //inicializar nuestro adapter
         listResorts = loadMockJSON()
-        touristicCenterAdapter =  TouristicCentresAdapter(listResorts)
-
-        /*NO FUNCIONO....Configurar para que funcione nuestro recycleView:
-
-        //usted va funcionar de forma vertical:
-        resortsRecyclerView.addItemDecoration(
-        DividerItemDecoration(this,DividerItemDecoration.VERTICAL))*/
-
+        touristicCenterAdapter =  TouristicCentresAdapter(listResorts, onItemClicked = {onTuristicCentreClicked(it)})
 
         resortsRecyclerView.apply{
             layoutManager = LinearLayoutManager(context)
             adapter = touristicCenterAdapter
             setHasFixedSize(false)
         }
-
-
-        /*NO FUNCIONO...Seteando el adapter:
-        resortsRecyclerView.adapter = touristicCenterAdapter*/
-
     }
 
-    private fun loadMockJSON(): ArrayList<TouristAttractionsItem> {
+    private fun onTuristicCentreClicked(turisticAttraction : TouristicAttractionItem){
+        val intent = Intent(this,MainActivity::class.java)
+        intent.putExtra("touristicAttraction", turisticAttraction)
+        startActivity(intent)
+    }
+
+    private fun loadMockJSON(): ArrayList<TouristicAttractionItem> {
         val touristicAttractionString : String = applicationContext.assets.open("touristAttraction.json").bufferedReader().use { it.readText() }
         val gson = Gson()
-        val data = gson.fromJson(touristicAttractionString,TouristAttractions::class.java)
+        val data = gson.fromJson(touristicAttractionString, TouristicAttraction::class.java)
         return data
 
     }
