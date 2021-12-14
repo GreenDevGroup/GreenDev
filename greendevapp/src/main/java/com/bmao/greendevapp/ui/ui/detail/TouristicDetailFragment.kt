@@ -15,7 +15,6 @@ import org.imaginativeworld.whynotimagecarousel.ImageCarousel
 
 
 class TouristicDetailFragment : Fragment() {
-//// touristic
     private lateinit var DetailBinding : FragmentTouristicDetailBinding
     private lateinit var tourdetailViewModel: TouristicDetailViewModel
     private val args : TouristicDetailFragmentArgs by navArgs()
