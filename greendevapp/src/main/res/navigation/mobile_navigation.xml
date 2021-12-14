@@ -27,6 +27,6 @@
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.bmao.greendevapp.ui.ui.preference.SettingsFragment"
+        android:name="com.bmao.greendevapp.preference.SettingsFragment"
         android:label="SettingsFragment" />
 </navigation>
