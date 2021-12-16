@@ -1,4 +1,6 @@
-[
+
+{
+	"SitiosTuristicos": [
 	{
 		"title" : "Casa Terracota",
 		"shortDescription" : "Casa habitable hecha completamente de barro. Una joya de arquitectura única en el mundo.",
@@ -15,7 +17,6 @@
 		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1637791537/Terracota/terracota_3_etjhuf.jpg",
 		"latitude": 5.6348734,
 		"longitude": -73.5390582
-
 	},
 	{
 		"title" : "Lago de Tota",
@@ -31,8 +32,10 @@
 		"urlPictureCoruselTres" : "https://res.cloudinary.com/naxozki/image/upload/v1638066772/Tota/tota4_nmadwm.jpg",
 		"urlPictureCoruselCuatro" : "https://res.cloudinary.com/naxozki/image/upload/v1638066684/Tota/tota1_wkselb.jpg",
 		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1638066769/Tota/tota2_en3fn9.jpg",
+
 		"latitude": 5.5433494,
 		"longitude": -72.9968211
+
 	},
 	{
 		"title" : "Puente de Boyacá",
@@ -48,8 +51,10 @@
 		"urlPictureCoruselTres" : "https://res.cloudinary.com/naxozki/image/upload/v1638067611/puente/puente1_yxl6hz.jpg",
 		"urlPictureCoruselCuatro" : "https://res.cloudinary.com/naxozki/image/upload/v1638067666/puente/puente4_hsec1w.jpg",
 		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1637454304/5a04f217e8f08_1_cfoj8q.jpg",
+
 		"latitude": 5.4504253,
 		"longitude": -73.4325087
+
 
 	},
 	{
@@ -66,8 +71,10 @@
 		"urlPictureCoruselTres" : "https://res.cloudinary.com/naxozki/image/upload/v1637791723/Cocuy/cocuy2_rritey.png",
 		"urlPictureCoruselCuatro" : "https://res.cloudinary.com/naxozki/image/upload/v1637791419/Cocuy/cocuy1_sd0lyh.png",
 		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1637791171/Cocuy/cocuy_bqvnsl.png",
+
 		"latitude": 6.5105141,
 		"longitude": -72.7422291
+
 	},
 	{
 		"title" : "Pantano de Vargas",
@@ -83,7 +90,9 @@
 		"urlPictureCoruselTres" : "https://res.cloudinary.com/naxozki/image/upload/v1638068064/pantano/Pantano3_q7kwv1.jpg",
 		"urlPictureCoruselCuatro" : "https://res.cloudinary.com/naxozki/image/upload/v1638068067/pantano/pantano5_qscimc.jpg",
 		"urlPictureCoruselCinco" : "https://res.cloudinary.com/naxozki/image/upload/v1638068065/pantano/pantano2_eyiumf.jpg",
+
 		"latitude": 5.7376717,
 		"longitude": -73.083683
 	}
-]
+]}
+
