@@ -12,10 +12,9 @@ import com.bmao.greendevapp.model.TouristicAttractionItem
 import com.squareup.picasso.Picasso
 
 
-
 class TouristicCentresAdapter(
 
-    private val centerTuristicList: ArrayList<TouristicAttractionItem>,
+    private val listTouristicAttractions: ArrayList<TouristicAttractionItem>,
     private val onItemClicked:(TouristicAttractionItem)-> Unit) : RecyclerView.Adapter<TouristicCentresAdapter.ResortsViewHolder>() {
 
 
@@ -27,16 +26,21 @@ class TouristicCentresAdapter(
     }
 
 
-
     override fun onBindViewHolder(holder: ResortsViewHolder, position: Int) {
-        val centerTuristic = centerTuristicList[position]
-        holder.itemView.setOnClickListener{onItemClicked(centerTuristicList[position])}
-        holder.bind(centerTuristic)
+        val listCenterTuristic = listTouristicAttractions[position]
+        holder.itemView.setOnClickListener{onItemClicked(listTouristicAttractions[position])}
+        holder.bind(listCenterTuristic)
 
     }
 
     override fun getItemCount(): Int {
-        return centerTuristicList.size
+        return listTouristicAttractions.size
+    }
+
+    fun appendItems(newItems: ArrayList<TouristicAttractionItem>) {
+        listTouristicAttractions.clear()
+        listTouristicAttractions.addAll(newItems)
+        notifyDataSetChanged()
     }
 
     class ResortsViewHolder(Itemview: View) : RecyclerView.ViewHolder(Itemview){
