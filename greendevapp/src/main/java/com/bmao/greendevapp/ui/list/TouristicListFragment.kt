@@ -32,7 +32,9 @@ class TouristicListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.hideIcon()
-        listViewModel.loadMockJSON(context?.assets?.open("touristAttraction.json"))
+        //listViewModel.loadMockJSON(context?.assets?.open("touristAttraction.json"))
+
+        listViewModel.getAttractionFromServer()
 
         listViewModel.onTouristicAttractionsLoaded.observe(viewLifecycleOwner, { result ->
             onTouristicAttractionsLoadedSubscribe(result)
