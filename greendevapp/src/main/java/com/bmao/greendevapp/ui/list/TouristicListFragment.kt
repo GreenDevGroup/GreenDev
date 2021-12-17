@@ -1,4 +1,4 @@
-package com.bmao.greendevapp.list
+package com.bmao.greendevapp.ui.list
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bmao.greendevapp.databinding.FragmentTouristicListBinding
-import com.bmao.greendevapp.main.MainActivity
+import com.bmao.greendevapp.ui.main.MainActivity
 import com.bmao.greendevapp.model.TouristicAttractionItem
 
 

@@ -1,4 +1,4 @@
-package com.bmao.greendevapp.detail
+package com.bmao.greendevapp.ui.detail
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,7 +9,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.bmao.greendevapp.R
 import com.bmao.greendevapp.databinding.FragmentTouristicDetailBinding
-import com.bmao.greendevapp.main.MainActivity
+import com.bmao.greendevapp.ui.main.MainActivity
 import org.imaginativeworld.whynotimagecarousel.model.CarouselItem
 import org.imaginativeworld.whynotimagecarousel.ImageCarousel
 

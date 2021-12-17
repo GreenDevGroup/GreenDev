@@ -1,11 +1,11 @@
-package com.bmao.greendevapp.preference
+package com.bmao.greendevapp.ui.preference
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.preference.PreferenceFragmentCompat
 import com.bmao.greendevapp.R
-import com.bmao.greendevapp.main.MainActivity
+import com.bmao.greendevapp.ui.main.MainActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
 

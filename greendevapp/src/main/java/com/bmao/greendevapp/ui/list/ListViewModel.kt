@@ -1,4 +1,4 @@
-package com.bmao.greendevapp.list
+package com.bmao.greendevapp.ui.list
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

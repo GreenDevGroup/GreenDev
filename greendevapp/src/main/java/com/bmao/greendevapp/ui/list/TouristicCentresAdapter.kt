@@ -1,4 +1,4 @@
-package com.bmao.greendevapp.list
+package com.bmao.greendevapp.ui.list
 
 import android.view.LayoutInflater
 import android.view.View
