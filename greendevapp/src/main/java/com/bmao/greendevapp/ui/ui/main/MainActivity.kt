@@ -9,7 +9,7 @@ import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.bmao.greendevapp.R
-import com.bmao.greendevapp.preference.SettingsFragment
+import com.bmao.greendevapp.ui.ui.preference.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

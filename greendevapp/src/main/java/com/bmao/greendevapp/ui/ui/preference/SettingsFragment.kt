@@ -1,4 +1,4 @@
-package com.bmao.greendevapp.preference
+package com.bmao.greendevapp.ui.ui.preference
 
 import android.os.Bundle
 import android.view.Menu

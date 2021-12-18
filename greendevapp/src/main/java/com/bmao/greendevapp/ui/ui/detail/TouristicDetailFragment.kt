@@ -54,6 +54,11 @@ class TouristicDetailFragment : Fragment() {
             list.add(CarouselItem(imageUrl = turisticAttraction.urlPictureCoruselCuatro, caption = turisticAttraction.title))
             list.add(CarouselItem(imageUrl = turisticAttraction.urlPictureCoruselCinco, caption = turisticAttraction.title))
             carousel.addData(list)
+ /*
+            mapButton.setOnClickListener {
+                findNavController().navigate(TouristicDetailFragmentDirections.actionTouristicDetailFragmentToMapsFragment(turisticAttraction))
+            }
+*/
 
         }
     }
