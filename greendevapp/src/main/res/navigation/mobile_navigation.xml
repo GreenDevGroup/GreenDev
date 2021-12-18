@@ -15,6 +15,9 @@
         <action
             android:id="@+id/action_touristicListFragment_to_touristicDetailFragment"
             app:destination="@id/touristicDetailFragment" />
+        <action
+            android:id="@+id/action_touristicListFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
         android:id="@+id/touristicDetailFragment"
@@ -27,10 +30,22 @@
         <argument
             android:name="touristicAttraction"
             app:argType="com.bmao.greendevapp.model.TouristicAttractionItem" />
+        <action
+            android:id="@+id/action_touristicDetailFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
 
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.bmao.greendevapp.ui.ui.preference.SettingsFragment"
         android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.bmao.greendevapp.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" >
+        <argument
+            android:name="mapsLocation"
+            app:argType="com.bmao.greendevapp.model.TouristicAttractionItem" />
+    </fragment>
 </navigation>
