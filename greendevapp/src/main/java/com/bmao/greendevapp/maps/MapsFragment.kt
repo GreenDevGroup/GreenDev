@@ -34,7 +34,7 @@ class MapsFragment : Fragment() {
 
         val locationMap = LatLng(sitio.latitude, sitio.longitude)
         googleMap.addMarker(MarkerOptions().position(locationMap).title(sitio.title).snippet(sitio.shortDescription))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(locationMap,20F))
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(locationMap,15F))
     }
 
     override fun onCreateView(
