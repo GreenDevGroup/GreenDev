@@ -13,6 +13,8 @@ import com.bmao.greendevapp.ui.preference.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        Thread.sleep(500)
+        setTheme(R.style.Apptheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }

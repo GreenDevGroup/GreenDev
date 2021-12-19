@@ -46,7 +46,7 @@
     </fragment>
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.bmao.greendevapp.splash.SplashFragment"
+        android:name="com.bmao.greendevapp.ui.splash.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
