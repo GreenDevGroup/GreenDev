@@ -8,6 +8,7 @@
     <fragment
         android:id="@+id/touristicListFragment"
         android:name="com.bmao.greendevapp.ui.list.TouristicListFragment"
+
         android:label="fragment_touristic_list"
         tools:layout="@layout/fragment_touristic_list" >
         <action
@@ -20,6 +21,7 @@
     <fragment
         android:id="@+id/touristicDetailFragment"
         android:name="com.bmao.greendevapp.ui.detail.TouristicDetailFragment"
+
         android:label="TouristicDetailFragment"
         tools:layout="@layout/fragment_touristic_detail">
 
@@ -34,6 +36,7 @@
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.bmao.greendevapp.ui.preference.SettingsFragment"
+
         android:label="SettingsFragment" />
     <fragment
         android:id="@+id/mapsFragment"

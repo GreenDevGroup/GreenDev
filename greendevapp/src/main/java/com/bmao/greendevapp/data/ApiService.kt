@@ -7,4 +7,5 @@ interface ApiService {
 
     @GET("GreenDevGroup/GreenDev/SitiosTuristicos")
     suspend fun getAttraction(): TouristicAttraction
+
 }
