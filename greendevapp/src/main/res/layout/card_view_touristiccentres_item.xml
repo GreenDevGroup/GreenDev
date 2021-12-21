@@ -24,7 +24,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@drawable/cardviewbackground">
 
             <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/image_incardview_imageView"
@@ -46,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6dp"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="8dp"
                 android:text="@string/title"
                 app:layout_constraintStart_toEndOf="@+id/image_incardview_imageView"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -58,7 +59,7 @@
                 android:layout_height="18dp"
                 android:layout_marginStart="6dp"
                 android:layout_marginTop="4dp"
-                android:isIndicator="false"
+                android:isIndicator="true"
                 android:numStars="5"
                 android:progressTint="@color/darkblue"
                 android:rating="4"
@@ -71,7 +72,7 @@
 
             <TextView
                 android:id="@+id/description_incardview_textView"
-                style="@style/text_normal"
+                style="@style/text_normalCardView"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="6dp"

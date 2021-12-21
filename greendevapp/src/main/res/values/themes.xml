@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.GreenDev" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Apptheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryVariant">@color/primary_dark</item>
@@ -12,6 +12,10 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+    
+    <style name="SplashTheme" parent="Apptheme">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
     </style>
 
     <style name="encabezado">
@@ -32,6 +36,12 @@
         <item name="android:textStyle">normal</item>
     </style>
 
+    <style name="text_normalCardView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
     <style name="BottomNavigations">
         <item name="android:background">@color/red</item>
         <item name="itemIconTint">@color/indianred</item>
@@ -43,4 +53,8 @@
         <item name="cornerSize">20dp</item>
         <item name="color">@color/white</item>
     </style>
+
+
+
+
 </resources>

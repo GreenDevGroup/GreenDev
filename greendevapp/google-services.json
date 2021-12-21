@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "981587052568",
+    "project_id": "greendev-f34aa",
+    "storage_bucket": "greendev-f34aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981587052568:android:3e02ab6ad8e20202c71b6d",
+        "android_client_info": {
+          "package_name": "com.bmao.greendevapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981587052568-g39hm7l84f3p7kbsbf3qm4i9cmv1masi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bmao.greendevapp",
+            "certificate_hash": "e1254bf719eb3e5a36bde76057d7c43790580acb"
+          }
+        },
+        {
+          "client_id": "981587052568-63qfvetuir3s7b3mo17b31l9n57uerf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVjFkf_JF1vaGBuQ0HoGbEnpIhCE-TdsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981587052568-63qfvetuir3s7b3mo17b31l9n57uerf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
