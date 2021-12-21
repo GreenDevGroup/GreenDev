@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.bmao.greendevapp.databinding.FragmentTouristicListBinding
 import com.bmao.greendevapp.ui.ui.main.MainActivity
 import com.bmao.greendevapp.model.TouristicAttractionItem
+import com.bmao.greendevapp.ui.list.TouristicListFragmentDirections
 
 
 class TouristicListFragment : Fragment() {

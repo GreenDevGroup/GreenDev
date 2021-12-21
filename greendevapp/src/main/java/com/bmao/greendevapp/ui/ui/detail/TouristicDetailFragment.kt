@@ -10,6 +10,8 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.bmao.greendevapp.R
 import com.bmao.greendevapp.databinding.FragmentTouristicDetailBinding
+import com.bmao.greendevapp.ui.detail.TouristicDetailFragmentArgs
+import com.bmao.greendevapp.ui.detail.TouristicDetailFragmentDirections
 import com.bmao.greendevapp.ui.ui.main.MainActivity
 import org.imaginativeworld.whynotimagecarousel.model.CarouselItem
 import org.imaginativeworld.whynotimagecarousel.ImageCarousel

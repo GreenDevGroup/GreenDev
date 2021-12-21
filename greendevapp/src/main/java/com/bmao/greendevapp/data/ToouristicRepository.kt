@@ -2,5 +2,5 @@ package com.bmao.greendevapp.data
 
 class ToouristicRepository {
 
-    suspend fun getTouristic() = WebService.retrofit.getSitios()
+    suspend fun getTouristic() = WebService.retrofit.getAttraction()
 }
